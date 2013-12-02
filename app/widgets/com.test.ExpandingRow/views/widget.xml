@@ -1,0 +1,7 @@
+<Alloy>
+	<TableViewRow id="reviewRow"  onClick="reviewClick">
+		<Label id="reviewTitle" />
+		<Label id="reviewText" />
+		<Label id="reviewAuthor" />
+	</TableViewRow>
+</Alloy>

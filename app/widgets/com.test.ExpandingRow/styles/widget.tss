@@ -1,0 +1,36 @@
+"#reviewRow":{
+	height : Ti.UI.SIZE,
+	backgroundColor : '#FFF',
+	hasChild: true
+},
+"#reviewTitle":{
+	text: 'This is an automated Review Title',
+	top : '3dp',
+	left : '10dp',
+	height : '16dp',
+	width : '200dp',
+	font : {fontSize : '12dp',fontWeight : 'bold'},
+	color : '#000',
+	touchEnabled : false
+},
+"#reviewText":{
+	text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. The END',
+	top : '35dp',
+	left : '10dp',
+	right : '10dp',
+	height : '45dp',
+	width : Ti.UI.FILL,
+	font : {fontSize : '12dp',fontWeight : 'normal'},
+	color : '#000',
+	touchEnabled : false
+},
+"#reviewAuthor":{
+	text: 'Robbie The Robot',
+	top : '20dp',
+	left : '10dp',
+	height : Ti.UI.SIZE,
+	width : 'auto',
+	font : {fontSize : '12dp',fontWeight : 'normal'},
+	color : '#999',
+	touchEnabled : false
+}
